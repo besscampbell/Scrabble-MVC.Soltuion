@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Scrabble Scorer!</title>
+    <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css'>
+</head>
+<body>
+    <div class="container">    
+        <p>Your scrabble word: @Model.UserInput</p>
+        <p>Is worth @Model.Score points</p>
+        <p>I hope you won that bet!</p>
+        <form action="/" method="post"><button type="submit" class="btn btn-primary">Submit another word!</button></form>
+    </div>
+</body>
+</html>
